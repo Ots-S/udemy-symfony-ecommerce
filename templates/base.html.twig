@@ -131,20 +131,10 @@
 					</div>
 				</div>
 			{% endif %}
-			<div class="container marketing {% if block('carousel') is not defined %} mt-5{% endif %}"> {% block content %}{% endblock %}
+			<div class="container marketing {% if block('carousel') is not defined %} mt-5 {% endif %}"> {% block content %}{% endblock %}
 				</div>
-				<footer class="footer">
-					<p>
-						&copy; 2017-2020 	La Boutique Française
-						<br/>
-						<small>
-							La boutique 100% made in France<br/></small>
-						<a href="#">Protection des données</a>
-						<br/>
-						<a href="#">Conditions générales de vente</a>
-					</p>
-				</footer>
 			</main>
+
 			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 			<script src={{ asset('assets/js/bootstrap.bundle.js') }}></script>
 		</body>
